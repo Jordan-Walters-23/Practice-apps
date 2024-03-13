@@ -5,7 +5,7 @@ type SectionProps = {
   children: ReactNode;
 };
 
-function Section({ children, title = "Mysubheading" }: SectionProps) {
+function Section({ children, title = "My Subheading" }: SectionProps) {
   return (
     <section>
       <h2>{title}</h2>
