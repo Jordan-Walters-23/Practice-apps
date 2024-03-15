@@ -1,6 +1,6 @@
 # React + TypeScript + Vite <br/> Headings, Counter and List
 
-### How to run app locally:
+### How to run the app locally:
 
 - cd vite-project
 - npm i
