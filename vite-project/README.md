@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite <br/> Headings, Counter and List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### How to run app locally:
 
-Currently, two official plugins are available:
+- cd vite-project
+- npm i
+- npm run dev
+- npm run ts:watch
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## The app
 
-## Expanding the ESLint configuration
+### What it does
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Displays a heading, subheading, counter and list. Demonstrating how to pass props and children in React using Typescript with a variety of components.
 
-- Configure the top-level `parserOptions` property like this:
+### Why I built it
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To apply my understanding of passing props and children as well as generics in Typescript. This can be seen in the Heading, Section, Counter and List components
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+I’ve applied what I learnt here to my “Guess the Song” app
+
+<img src="public/app-image.png" alt="App Image" height="400">
+
