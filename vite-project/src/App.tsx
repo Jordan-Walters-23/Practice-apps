@@ -7,14 +7,14 @@ import List from "./Components/List";
 import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState<number>(1);
+  const [count, setCount] = useState(1);
 
   return (
     <>
-      <Heading title={"Hello"} />
-      <Section title={"Different title"}>This is my section</Section>
-      <Counter setCount={setCount}>Count is {count}</Counter>
-      <List
+      <Heading title={"Title"} />
+      <Section title={"Different title"}>Section</Section>
+      <Counter setCount={setCount}>Count: {count}</Counter>
+      <List listHead={"List"}
         items={[
           "😴Sleep",
           "😄Grin",
@@ -24,7 +24,7 @@ function App() {
           "🚓Police",
           "🚇Tram",
         ]}
-        render={(item: string) => <span className="bold">{item}</span>}
+        render={(item: string) => <span className="chartreuse">{item}</span>}
       />
     </>
   );
